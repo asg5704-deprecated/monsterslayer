@@ -37,12 +37,17 @@
 
 .log ul .player-turn {
     color: blue;
-    background-color: #e4e8ff;
+    background-color: #e6e6e6;
 }
 
 .log ul .monster-turn {
     color: red;
-    background-color: #ffc0c1;
+    background-color: #e6e6e6;
+}
+
+.log ul .player-heal-turn {
+    color: green;
+    background-color: #e6e6e6;
 }
 
 button {
@@ -92,3 +97,19 @@ button {
 #give-up:hover {
     background-color: #c7c7c7;
 }
+
+.full {
+    background-color: green;
+    margin: 0;
+    color: white;
+}
+
+.med-health {
+    background-color: #ffaf4f;
+}
+
+.low-health {
+    background-color: #ff7367;
+}
+
+
